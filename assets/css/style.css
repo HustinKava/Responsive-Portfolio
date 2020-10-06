@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+#navbarMainStyling {
+    color: #fff;
+    background: #fff;
+}
+
+#brandNameStyling {
+    background-color: #4aaaa5;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+
+.active a {
+    color: black;
+}
+
+
