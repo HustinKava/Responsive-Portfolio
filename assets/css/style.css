@@ -5,6 +5,11 @@
     padding: 0;
     }
 
+html {
+    overflow-y: scroll; /* This code stops the page from moving when clicking on a new link */
+}
+    
+
 .active a {
     color: black;
 }
@@ -36,6 +41,10 @@ h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.nav-item {
+    font-weight: 500;
+}
+
 /* Index Page Styling */
 
 #profilePicture {
@@ -49,6 +58,25 @@ h1 {
 
 #indexBodyContent {
     padding-top: 10px;
+}
+
+/* Contact Page Styling */
+
+.form-group {
+    width: 80%;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    color: #fff;
+    border-radius:0px;
+    border-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
 
 /* Footer Styling */
@@ -70,4 +98,3 @@ h1 {
       font-size: 30px;
   }
 
-  
