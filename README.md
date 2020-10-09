@@ -15,8 +15,8 @@ This is my second homework assignment and my task was to build this website from
 
 <h2>Screenshot</h2>
 
-![](assets/images/Screenshot.png)
+![](/assets/images/Screenshot.PNG)
 
 <p>
-To view this website please click <a href="https://hustinkava.github.io/Responsive-Portfolio/" target="_blank" rel="nofollow">here</a>
+To view this website please click <a href="https://hustinkava.github.io/Responsive-Portfolio/" rel="nofollow">here</a>
 </p>
