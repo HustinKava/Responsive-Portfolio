@@ -3,6 +3,7 @@
 <html lang="en">
 
 <!--Header for meta data, stylesheets and title-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>About Me</title>
 </head>
@@ -20,79 +27,102 @@
 
         <nav class="navbar navbar-expand-lg navbar-light" id="navbarMainStyling">
             <div class="container">
-            <a class="navbar-brand" id="brandNameStyling">Hustin Kava</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu"> 
+                <a class="navbar-brand" id="brandNameStyling">Hustin Kava</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="index.html" class="nav-link">About</a>
-                    </li>
-                </ul>
-            </div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <!--Section tag that houses the about me content-->
-        <section class="container" id="sectionBody">        
-            <div class="row">
-                <div class="card" style="width: 700px;">
-                    <div class="card-body">
+    <section class="container" id="sectionBody">
+        <div class="row">
+            <div class="card" style="width: 700px;">
+                <div class="card-body">
 
                     <h1>About Me</h1>
 
-                        <div class="row">
+                    <div class="row">
 
-                            <article class="col-md-12" id="indexBodyContent">
+                        <article class="col-md-12" id="indexBodyContent">
 
-                                <img class="float-left" id="profilePicture" src="assets/images/Profile Pic.jpg" alt="Placeholder" height="200" width="200">
+                            <img class="float-left" id="profilePicture" src="assets/images/Profile Pic.jpg"
+                                alt="Placeholder" height="200" width="200">
 
-                                <p>Originally born and raised in London, England, Hustin Kava moved to Alberta, Canada at the age of thirteen. Having dual citizenship has granted him the flexibility of travelling back and forth and living the best of both worlds.</p>
+                            <p>Originally born and raised in London, England, Hustin Kava moved to Alberta, Canada at
+                                the age of thirteen. Having dual citizenship has granted him the flexibility of
+                                travelling back and forth and living the best of both worlds.</p>
 
-                                <p>Hustin is a huge supporter of the Arsenal Football Club, one of the UK's leading football teams. He has the dream of watching them play live one day. Hustin is very passionate about cars. He is intrigued by the various mechanisms involved and cannot go a day without driving his car. In his free time, Hustin enjoys listening to music, with his  favourite genre being Hip Hop.</p>
+                            <p>Hustin is a huge supporter of the Arsenal Football Club, one of the UK's leading football
+                                teams. He has the dream of watching them play live one day. Hustin is very passionate
+                                about cars. He is intrigued by the various mechanisms involved and cannot go a day
+                                without driving his car. In his free time, Hustin enjoys listening to music, with his
+                                favourite genre being Hip Hop.</p>
 
-                                <p>He is currently pursuing a career as a Full Stack Developer and has found the program that he is enrolled in to be quite stimulating thus far. He enjoys challenges and being pushed beyond his limits. He believes that this program has given him a new purpose and is driving him to better himself. He is really enjoying his classes along with the assignments. He is grateful that his instructors and classmates provide great support and want to see him succeed.</p>
+                            <p>He is currently pursuing a career as a Full Stack Developer and has found the program
+                                that he is enrolled in to be quite stimulating thus far. He enjoys challenges and being
+                                pushed beyond his limits. He believes that this program has given him a new purpose and
+                                is driving him to better himself. He is really enjoying his classes along with the
+                                assignments. He is grateful that his instructors and classmates provide great support
+                                and want to see him succeed.</p>
 
-                                <p>Hustin is excited to see where this new adventure takes hims and is looking forward to sharpening his skills set. The creative aspect of designing websites fascinates him and he is eager to learn how to implement JavaScript.</p>
+                            <p>Hustin is excited to see where this new adventure takes hims and is looking forward to
+                                sharpening his skills set. The creative aspect of designing websites fascinates him and
+                                he is eager to learn how to implement JavaScript.</p>
 
-                            </article>
-                        </div>
+                        </article>
                     </div>
-                </div>                  
-            </div>                     
-        </section>   
-    
-    <!--Footer tags house the footer contents, connect with me social icons and copyright information-->    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer tags house the footer contents, connect with me social icons and copyright information-->
     <footer class="py-4" id="footerSection">
         <div class="container-fluid">
             <p>Connect with me</p>
-            <ul id="socialList">      
 
-          <li><a href="https://github.com/HustinKava" target="_blank">
-            <i class="fa fa-github" aria-hidden="true" style="color:#4aaaa5;"></i>
-              </a></li>
-          <li><a href="http://www.linkedin.com/in/hustin-kava" target="_blank">
-            <i class="fa fa-linkedin-square" aria-hidden="true" style="color:#4aaaa5;"></i>
-              </a></li>
-            </ul>
-      
-          <p id="copyRight">&#169; 2020 Hustin Kava</p>
+            <div class="socialMedia">
+                <a href="https://github.com/HustinKava" target="_blank">
+                    <i class="fa fa-github" style="color:#4aaaa5;"></i>
+                </a>
+                <a href="http://www.linkedin.com/in/hustin-kava" target="_blank">
+                    <i class="fa fa-linkedin-square" style="color:#4aaaa5;"></i>
+                </a>
+            </div>
+
+            <p id="copyRight">&#169; 2020 Hustin Kava</p>
+
         </div>
-      </footer>
-    
-    <!--Scripts go to the body of the body tags-->  
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>        
+    </footer>
+
+    <!--Scripts go to the body of the body tags-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
 
 </body>
 

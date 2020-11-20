@@ -71,8 +71,12 @@ h1 {
 
 /* Portfolio Styling */
 
-.portfolioBodyContent {
-padding: 10px 10px 10px 10px;
+img {
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #submitButton {
@@ -97,11 +101,6 @@ padding: 10px 10px 10px 10px;
     border-top: 8px solid #4aaaa5;
   }
 
-  ul#socialList li {
-    display:inline
+  .socialMedia {
+      font-size: 50px;
   }
-
-  #socialList {
-      font-size: 30px;
-  }
-
