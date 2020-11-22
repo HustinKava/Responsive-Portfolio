@@ -1,5 +1,7 @@
 /* Global Styling */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +17,11 @@ html {
 }
 
 body {
-    background-color: #d3cfcf;
+    background-color: #d1dbe6;
 }
 
 .card-body {
-    background-color: #8BBADA;
+    background-color: #6DAFFE;
     border-radius: 5px;
     border-color: 1px solid #fff;
 }
@@ -30,7 +32,7 @@ h1 {
     font-weight: bold;
     line-height: 50px;
     border-bottom: 3px solid #fff;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #sectionBody {
@@ -53,15 +55,15 @@ a:hover {
 /* Navbar Styling */
 
 #navbarMainStyling {
-    background: #b94545;
-    border-bottom: 8px solid #fff;
+    background: #437FC7;
+    border-bottom: 8px solid #6DAFFE;
 }
 
 #brandNameStyling {
     font-weight: bold;
     color: #fff;
     font-size: 25px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-item {
@@ -133,6 +135,7 @@ a:hover {
 
 p {
     color: #fff;
+    font-size: 17px;
 }
 
 
@@ -149,7 +152,7 @@ p {
 }
 
 #submitButton {
-    background-color: #8BBADA;
+    background-color: #437FC7;
     color: #fff;
     border-radius: 5px;
     border-color: #fff;
@@ -169,15 +172,19 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    border: 2px solid #fff;
+    border: 2px solid #437FC7;
     text-align: center;
     font-size: 300px;
-    color: #fff;
+    color: #6DAFFE;
+    background-color: #EDF6FF;
 }
 
 .portfolio-text {
     text-align: center;
     color: #fff;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #fff;
+    text-decoration-color: #fff;
 }
 
 .slick-next,
@@ -231,8 +238,8 @@ p {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    background: #b94545;
-    border-top: 8px solid #fff;
+    background: #437FC7;
+    border-top: 8px solid #6DAFFE;
 }
 
 .socialMedia {
