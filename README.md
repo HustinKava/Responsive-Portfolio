@@ -13,7 +13,9 @@ This website was created to showcase what I have learned so far. This page will 
 This is my second homework assignment and my task was to build this website from scratch while utilizing bootstrap. I implemented grids, cards, images, rows, columns and forms among other elements. I enjoyed the creativity aspect of this assignment and tried my best to replicate the website from the images provided.
 
 
-<h2>Screenshot</h2>
+<h2>Screenshots</h2>
+
+![](/assets/images/Screenshot2.PNG)
 
 ![](/assets/images/Screenshot.PNG)
 
