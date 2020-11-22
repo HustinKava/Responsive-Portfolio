@@ -1,7 +1,6 @@
 /* Global Styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -91,7 +90,7 @@ a:hover {
 }
 
 
-/*effect-underline*/
+/* Effect-Underline */
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:after {
@@ -136,6 +135,12 @@ a:hover {
 p {
     color: #fff;
     font-size: 17px;
+}
+
+.informationBox {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
 }
 
 
@@ -185,6 +190,12 @@ p {
     text-decoration: underline;
     -webkit-text-decoration-color: #fff;
     text-decoration-color: #fff;
+}
+
+.repo {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #437FC7;
 }
 
 .slick-next,
