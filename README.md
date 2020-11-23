@@ -8,9 +8,15 @@
 
 This website was created to showcase what I have learned so far. This page will serve as a portfolio for future projects I work on and can showcase throughout this program.
 
+<h2>Technologies Used</h2>
+
+<p>For this assignment I used HTML, CSS, JavaScript, FontAwesome, Bootstrap and jQuery</p>
+
 <h2>My Experience</h2>
 
 This is my second homework assignment and my task was to build this website from scratch while utilizing bootstrap. I implemented grids, cards, images, rows, columns and forms among other elements. I enjoyed the creativity aspect of this assignment and tried my best to replicate the website from the images provided.
+
+For homework assignment 8 I was tasked to revisit this site and give it an update. I enjoyed this assignment and it was refreshing to revamp the style and even include some JavaScript into it. Having built it from scratch earlier it was nice and easy to apply modifications.
 
 
 <h2>Screenshots</h2>
@@ -21,4 +27,8 @@ This is my second homework assignment and my task was to build this website from
 
 <p>
 To view this website please click <a href="https://hustinkava.github.io/Responsive-Portfolio/" rel="nofollow">here</a>
+</p>
+
+<p>
+Click <a href="https://www.linkedin.com/in/hustin-kava" rel="nofollow">here</a> to connect with me on LinkedIn.
 </p>
